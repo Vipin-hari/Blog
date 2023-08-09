@@ -1,0 +1,194 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #321732;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.custom-navbar {
+  background-color: #af10db;
+}
+.blog-text {
+  color: #f00; /* Replace with your desired color for "Blog" */
+}
+
+.pool-text {
+  color: #00f; /* Replace with your desired color for "Pool" */
+}
+
+button.read-more {
+  position: relative;
+  padding: 12px 35px;
+  background: #f6eef7;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ed13ed;
+  border: 3px solid #e32bc4;
+  border-radius: 8px;
+  box-shadow: 0 0 0 #910f828c;
+  transition: all .3s ease-in-out;
+}
+
+button.read-more:hover {
+  background: transparent;
+  color: #2d0227;
+  box-shadow: 0 0 25px #c01fa28c;
+}
+
+button.read-more .star-1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #d349c7);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+button.read-more .star-2 {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #d143bb);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+button.read-more .star-3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #c926b1);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+button.read-more .star-4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #da42c0);
+  z-index: -5;
+  transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+button.read-more .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ef31c2);
+  z-index: -5;
+  transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+button.read-more .star-6 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 0 #ee3ce8);
+  z-index: -5;
+  transition: all .8s ease;
+}
+
+button.read-more:hover .star-1 {
+  position: absolute;
+  top: -80%;
+  left: -30%;
+  width: 25px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #dc3acc);
+  z-index: 2;
+}
+
+button.read-more:hover .star-2 {
+  position: absolute;
+  top: -25%;
+  left: 10%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #dc50cb);
+  z-index: 2;
+}
+
+button.read-more:hover .star-3 {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button.read-more:hover .star-4 {
+  position: absolute;
+  top: 30%;
+  left: 80%;
+  width: 8px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button.read-more:hover .star-5 {
+  position: absolute;
+  top: 25%;
+  left: 115%;
+  width: 15px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+button.read-more:hover .star-6 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  width: 5px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+
+.fil0 {
+  fill: #FFFDEF;
+}
+.card {
+  position: relative;
+}
+
+.card:hover {
+  backdrop-filter: blur(50px); /* Adjust the blur amount as needed */
+}
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(70px); /* Adjust the blur amount as needed */
+  z-index: -1;
+  pointer-events: none;
+}
+
+
+
